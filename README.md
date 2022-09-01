@@ -4,4 +4,8 @@
 
 ---
 
-# I hope everthing fine
+## Moc-tapout result 
+
+#still we getting some error we are continiously trying to solve it with the help of slack community  we update it as soon as possible . 
+
+#pin list [click here](https://docs.google.com/spreadsheets/d/1iBK8BybxhVD0cQBW_FXbfe8DzI0cyhBt2lJwGJfDyJ0/edit#gid=0)
