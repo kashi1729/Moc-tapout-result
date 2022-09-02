@@ -11,5 +11,5 @@
 #pin list [click here](https://docs.google.com/spreadsheets/d/1iBK8BybxhVD0cQBW_FXbfe8DzI0cyhBt2lJwGJfDyJ0/edit#gid=0)
 
 
-### Mock tapout <br>
-[Link](https://github.com/kashi1729/Moc-tapout-result.git)
+### Mock tapout-result-doc<br>
+[Link](https://docs.google.com/document/d/10PK_7tduaJkGd7NgSbGW4vfjaYW3rXv4b2rdMUSI3m8/edit)
