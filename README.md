@@ -12,7 +12,7 @@
 
 #### we getting error--Consistancy and posted our it on slack.  
 
-#pin list [click here](https://docs.google.com/spreadsheets/d/1iBK8BybxhVD0cQBW_FXbfe8DzI0cyhBt2lJwGJfDyJ0/edit#gid=0)
+# pin list [click here](https://docs.google.com/spreadsheets/d/1iBK8BybxhVD0cQBW_FXbfe8DzI0cyhBt2lJwGJfDyJ0/edit#gid=0)
 
 
 ## Mock tapout-result-doc<br>
