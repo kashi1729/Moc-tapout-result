@@ -80,4 +80,4 @@ C {devices/lab_pin.sym} 3590 -2780 0 1 {name=l45 sig_type=std_logic lab=gpio_ana
 C {devices/lab_pin.sym} 3590 -2840 0 1 {name=l47 sig_type=std_logic lab=gpio_analog[2]}
 C {devices/lab_pin.sym} 3590 -2880 0 1 {name=l48 sig_type=std_logic lab=gpio_analog[1]}
 C {devices/lab_pin.sym} 3590 -2940 0 1 {name=l49 sig_type=std_logic lab=gpio_analog[0]}
-C {/foss/designs/DUMMY_PRECHECK/D_INV/dummy_inv1.sym} 3340 -2730 0 0 {name=x1}
+C {D_INV/dummy_inv1.sym} 3340 -2730 0 0 {name=x1}
