@@ -1,0 +1,47 @@
+* NGSPICE file created from dummy_inv1.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_648S5X m1_n7796_n1190# m1_n7819_3585# m1_n7777_429#
++ a_15_n100# a_n33_122# m1_n7788_2018# m1_n7796_1610# m1_n7786_1220# m1_n7818_n412#
++ m1_n7793_n787# m1_n7818_n12# w_309_154# a_n175_n274#
+X0 a_15_n100# a_n33_122# a_n175_n274# a_n175_n274# sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_XJT6XQ m1_3257_3363# w_n209_n121# m1_3255_n2344# m1_3256_1622#
++ a_n9_67# m1_3258_n119# m1_3256_2782# m1_3255_2203# m1_3253_n1269# m1_3257_n698#
++ a_21_98# m1_3255_463#
+X0 a_21_98# a_n9_67# w_n209_n121# w_n209_n121# sky130_fd_pr__pfet_01v8 ad=1.65e+11p pd=1.66e+06u as=3.1e+11p ps=3.24e+06u w=500000u l=150000u
+X1 w_n209_n121# a_n9_67# a_21_98# w_n209_n121# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=500000u l=150000u
+.ends
+
+.subckt sky130_fd_pr__res_generic_po_JD8CB6 a_n1006_809# a_n1006_n2091# a_n1006_229#
++ a_n1006_n3654# a_n1006_406# a_n1006_n3074# a_n1006_n3831# a_n1006_n1914# a_n1006_n3251#
++ a_n1006_n754# a_n1006_n1334# a_n1006_n174# a_n1006_n931# a_n1006_n1511# a_n1006_n2494#
++ a_n1006_n4234# a_n1006_n351# a_n1006_n2671#
+R0 a_n1006_n1914# a_n1006_n1511# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R1 a_n1006_406# a_n1006_809# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R2 a_n1006_n1334# a_n1006_n931# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R3 a_n1006_n174# a_n1006_229# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R4 a_n1006_n754# a_n1006_n351# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R5 a_n1006_n4234# a_n1006_n3831# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R6 a_n1006_n3074# a_n1006_n2671# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R7 a_n1006_n3654# a_n1006_n3251# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R8 a_n1006_n2494# a_n1006_n2091# sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+.ends
+
+.subckt dummy_inv1 Y0 Y1 Y2 Y3 Y4 Y5 Y6 Y7 Y8 VP VN I9 I8 I7 I6 I5 I4 I3 I2 I1 I0
++ Y9
+XXM1 I9 I0 I5 Y4 I4 I1 I2 I3 I7 I8 I6 VP VN sky130_fd_pr__nfet_01v8_648S5X
+XXM2 Y0 VP Y9 Y3 I4 Y6 Y1 Y2 Y8 Y7 Y4 Y5 sky130_fd_pr__pfet_01v8_XJT6XQ
+Xsky130_fd_pr__res_generic_po_JD8CB6_0 I0 I5 I1 I8 I1 I7 I8 I5 I7 I3 I4 I2 I3 I4 I6
++ I9 I2 I6 sky130_fd_pr__res_generic_po_JD8CB6
+R0 Y3 Y2 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R1 Y4 Y3 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R2 Y9 Y8 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R3 Y5 Y4 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R4 Y6 Y5 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R5 Y7 Y6 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R6 Y8 Y7 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R7 Y1 Y0 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+R8 Y2 Y1 sky130_fd_pr__res_generic_po w=1e+06u l=1.65e+06u
+.ends
+

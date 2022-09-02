@@ -1,0 +1,9 @@
+magic
+tech sky130A
+timestamp 1662121956
+<< properties >>
+string FIXED_BBOX -106 -175 106 175
+string gencell sky130_fd_pr__res_generic_po
+string library sky130
+string parameters w 1.0 l 1.650 m 1 nx 1 wmin 0.330 lmin 1.650 rho 48.2 val 48.2 dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0.4 snake 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 roverlap 0 endcov 100 full_metal 1 hv_guard 0 n_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>
