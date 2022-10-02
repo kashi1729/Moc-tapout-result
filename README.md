@@ -16,4 +16,9 @@
 
 
 ## Mock tapout-result-doc<br>
-[Link](https://docs.google.com/document/d/10PK_7tduaJkGd7NgSbGW4vfjaYW3rXv4b2rdMUSI3m8/edit)
+[Link](https://docs.google.com/document/d/10PK_7tduaJkGd7NgSbGW4vfjaYW3rXv4b2rdMUSI3m8/edit)<br><br>
+
+
+## Design Review Slide  <br>
+[Click Here ](https://docs.google.com/presentation/d/1-L270S2EW6Kk4o1u2JP8suDnvYP9z3ZdSpdaRFx7-QQ/edit?usp=sharing)
+
